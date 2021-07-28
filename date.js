@@ -1,30 +1,30 @@
-// jshint eversion:6
+// // jshint eversion:6
 
-   exports.getDate = function() {
+//    exports.getDate = function() {
 
 
-    const today = new Date();
-        const options = {
-            weekday : "long",
-            day: "numeric",
-            month: "long"
-        };
+//     const today = new Date();
+//         const options = {
+//             weekday : "long",
+//             day: "numeric",
+//             month: "long"
+//         };
     
-        let day = today.toLocaleDateString("en-US", options);
-        return day;
-}
+//         let day = today.toLocaleDateString("en-US", options);
+//         return day;
+// }
 
-  exports.getDay = function() {
+//   exports.getDay = function() {
 
 
-    const today = new Date();
-        const options = {
-            weekday : "long",
+//     const today = new Date();
+//         const options = {
+//             weekday : "long",
             
-        };
+//         };
     
-        let day = today.toLocaleDateString("en-US", options);
-        return day;
-}
+//         let day = today.toLocaleDateString("en-US", options);
+//         return day;
+// }
 
 // console.log(module.exports);
